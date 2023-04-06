@@ -1,0 +1,54 @@
+/* #form{
+    border: 3px solid black;
+    padding: 300px;
+    margin: 400px;
+    background-image: url(cartoon) ; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(cartoon);
+    background-size: 280%;
+    background-position: 400px 0px;
+}
+#form{
+    width: 800px;
+    margin: 200px auto 0px auto;
+    background-color: rgba(90, 59, 59, 0.2);
+    border-radius: 13px;
+    box-shadow: 2px 2px 15px;
+
+}
+h1{
+    text-align: center;
+}
+#all
+{
+    width: 700px;
+    
+    margin: 40px;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    text-size-adjust:80px;
+}
+#submit
+{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    margin: 100;
+    padding: 70px;
+}
+/* #first{
+    width: 300px;
+    border: 2px solid rgb(223, 9, 9);
+    width: 400px;
+    box-shadow: rgba(255, 253, 253, 0.2);
+    padding: 10px;
+    margin: 10px;
+} */
