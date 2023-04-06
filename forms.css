@@ -1,8 +1,4 @@
-/* #form{
-    border: 3px solid black;
-    padding: 300px;
-    margin: 400px;
-    background-image: url(cartoon) ; */
+
 *{
     margin: 0;
     padding: 0;
@@ -44,11 +40,4 @@ h1{
     margin: 100;
     padding: 70px;
 }
-/* #first{
-    width: 300px;
-    border: 2px solid rgb(223, 9, 9);
-    width: 400px;
-    box-shadow: rgba(255, 253, 253, 0.2);
-    padding: 10px;
-    margin: 10px;
-} */
+
