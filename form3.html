@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Exam Registration Form</h1>
+        <fieldset>
+            
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text " name="name">
+            <label for="email">E-mail</label>
+            <input type="text" name="email">
+            <label for="mobno.">Phone number:</label>
+            <input type="tel" name="mobno.">
+            <label for="DOB">D.O.B.</label>
+            <input type="date" name="DOB">
+            <br>
+            </div>
+            <br>
+            <div>
+            <label for="photo">Upload photo:</label>
+            <input type="file" name="photo">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Residential Information</legend>
+            <label for="address">Address</label>
+            <input type="text" name="address">
+            <label for="area">Area</label>
+            <input type="text" name="area">
+            <label for="locality">Locality</label>
+            <input type="text" name="locality">
+            <label for="zipC">Zip code</label>
+            <input type="text" name="zipC">
+            <label for="state">State:</label>
+            <select name="state" id="state">
+                <option value="UP">UP</option>
+                <option value="bihar">Bihar</option>
+                <option value="kerala">Kerala</option>
+                <option value="punjab">Punjab</option>
+                <option value="rajasthan">Rajasthan</option>
+            </select>
+
+        </fieldset>
+        <fieldset>
+            <legend>Exam center details</legend>
+            <label for="Center1">Center-1:</label>
+        
+                <select name="center1" id="center1">
+                    <option value="kanpur">Kanpur</option>
+                    <option value="kannauj">Kannauj</option>
+                    <option value="delhi">Delhi</option>
+                    <option value="farrukhabad">Farrukhabad</option>
+                </select>
+                <label for="Center2">Center-2:</label>
+        
+                <select name="center2" id="center1">
+                    <option value="jalon">Jalon</option>
+                    <option value="jodhpur">Jodhpur</option>
+                    <option value="ayodhya">Ayodhya</option>
+                    <option value="jaipur">Jaipur</option>
+                </select>
+                <label for="center3">Center-3:</label>
+                <select name="Center3" id="center3">
+                    <option value="jalon">Jalon</option>
+                    <option value="jodhpur">Jodhpur</option>
+                    <option value="ayodhya">Ayodhya</option>
+                    <option value="jaipur">Jaipur</option>
+                </select>
+                <label for="center4">Center-4:</label>
+                <select name="center4" id="center4">
+                    <option value="Agra">Agra</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="kannauj">Kannauj</option>
+                </select>
+        </fieldset>
+        <fieldset>
+            <legend>Qualification</legend>
+            <table border="1" style="border-collapse: collapse;">
+                <label for="highschool">Highschool:</label>
+            <thead id="highschool">
+                
+                <th>Board</th>
+                <th>Total marks obtained</th>
+                <th>Overall marks</th>
+                <th>Overall Percentage</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><select name="Board" id="Board">
+                        <option value="CBSE">CBSE</option>
+                        <option value="UP">UP</option>
+                        <option value="ICSE">ICSE</option>
+                    </select></td>
+                    <td><input type="text" name="totalmarksobtained"></td>
+                    <td><input type="text" name="Overallmarks"></td>
+                    <td><input type="text" name="overallpercentage"></td>
+                </tr><br>
+            </tbody>
+         </table>
+         <br>
+         <label for="highschoolmarksheet">Attach High school marksheet :</label>
+         <br>
+         <input type="file" name="highschoolmarksheet">
+         
+                <br>    <br>
+              <table border="1" style="border-collapse: collapse;">
+                <label for="intermediate">Intermediate: </label>
+                <thead id="intermediate">
+                    
+                    <th>Board</th>
+                    <th>Total marks obtained</th>
+                    <th>Overall marks</th>
+                    <th>Overall Percentage</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><select name="Board" id="Board">
+                            <option value="CBSE">CBSE</option>
+                            <option value="UP">UP</option>
+                            <option value="ICSE">ICSE</option>
+                        </select></td>
+                        <td><input type="text" name="totalmarksobtained"></td>
+                        <td><input type="text" name="Overallmarks"></td>
+                        <td><input type="text" name="overallpercentage"></td>
+                    </tr>
+                    
+                    </table>
+                    <br>
+                    <label for="highschoolmarksheet">Attach High school marksheet :</label>
+                <br>
+                 <input type="file" name="highschoolmarksheet">
+         
+        </fieldset>
+        <br>
+        <input type="button" name="Submit" value="Submit">
+        <input type="button" value="Reset" name="Reset">
+    </form>
+</body>
+</html>
